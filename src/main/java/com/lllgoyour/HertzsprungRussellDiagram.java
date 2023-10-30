@@ -3,6 +3,9 @@ package com.lllgoyour;
 import javax.swing.*;
 import java.awt.*;
 
+/**
+ * This is the Main class.
+ */
 public class HertzsprungRussellDiagram extends JFrame{
     private JPanel chartPanel;
 
@@ -19,6 +22,7 @@ public class HertzsprungRussellDiagram extends JFrame{
             @Override
             public void actionPerformed(ActionEvent e) {
                 // 在这里执行计算和更新赫罗图的逻辑
+                // TODO: to complete constructing the HR Diagram by running StellarMotionCalculator class.
                 chartPanel.repaint();
             }
         });
@@ -29,8 +33,8 @@ public class HertzsprungRussellDiagram extends JFrame{
         @Override
         protected void paintComponent(Graphics g) {
             super.paintComponent(g);
-            // 在这里绘制赫罗图的逻辑
-            // 使用Graphics对象绘制星星的位置和性质
+            // TODO: 在这里绘制赫罗图的逻辑to complete the code to graph HR Diagram
+            // TODO: Use Graphics to graph stellar locations and properties.
         }
     }
 
